@@ -5,7 +5,7 @@
 
 #define D "██"
 #define N "□□"
-
+ 
 void draw(int img[][28]){
     system("cls");
     for (int i = 0; i < 28; i++){
