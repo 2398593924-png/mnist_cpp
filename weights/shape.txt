@@ -1,0 +1,8 @@
+net.0.weight torch.Size([256, 784])
+net.0.bias torch.Size([256])
+net.2.weight torch.Size([128, 256])
+net.2.bias torch.Size([128])
+net.4.weight torch.Size([64, 128])
+net.4.bias torch.Size([64])
+net.6.weight torch.Size([10, 64])
+net.6.bias torch.Size([10])
