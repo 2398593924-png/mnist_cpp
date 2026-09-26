@@ -11,7 +11,7 @@ Matrix softmax(Matrix& in){
     for (int i = 0; i < 10; i++) result.set({i, 0}, expf(in.get({i, 0})) / sum);
     return result;
 }
-
+ 
 int argmax(Matrix& in){
     // in: (10, 1)
     int ans = 0;
